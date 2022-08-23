@@ -148,6 +148,10 @@ ScreenShots:
 
 <h1 align="left"> <img src="https://github.com/wzm727069/COMP-371/blob/master/Sample3.gif" height="400px" width="700px"> </h1>
 <h1 align="left"> <img src="https://github.com/wzm727069/COMP-371/blob/master/SS1.png" height="400px" width="700px"> </h1>
+<h1 align="left"> <img src="https://github.com/wzm727069/COMP-371/blob/master/SS2.png" height="400px" width="700px"> </h1>
+<h1 align="left"> <img src="https://github.com/wzm727069/COMP-371/blob/master/SS3.png" height="400px" width="700px"> </h1>
+<h1 align="left"> <img src="https://github.com/wzm727069/COMP-371/blob/master/SS4.png" height="400px" width="700px"> </h1>
+<h1 align="left"> <img src="https://github.com/wzm727069/COMP-371/blob/master/SS5.png" height="400px" width="700px"> </h1>
 
 ---
 
