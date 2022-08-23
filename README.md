@@ -146,6 +146,9 @@ ScreenShots:
 
 <h1 align="left"> <img src="https://github.com/wzm727069/COMP-371/blob/master/Sample2.gif" height="400px" width="700px"> </h1>
 
+<h1 align="left"> <img src="https://github.com/wzm727069/COMP-371/blob/master/Sample3.gif" height="400px" width="700px"> </h1>
+<h1 align="left"> <img src="https://github.com/wzm727069/COMP-371/blob/master/SS1.png" height="400px" width="700px"> </h1>
+
 ---
 
 Libraries:
