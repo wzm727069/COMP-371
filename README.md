@@ -142,7 +142,9 @@ List of Controls:
 ---
 ScreenShots:
 ---------------------------------------
+<h1 align="left"> <img src="https://github.com/wzm727069/COMP-371/blob/master/Sample1.gif" height="200px" width="100px"> </h1>
 
+<h1 align="left"> <img src="https://github.com/wzm727069/COMP-371/blob/master/Sample2.gif" height="500px" width="800px"> </h1>
 
 ---
 
