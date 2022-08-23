@@ -1,4 +1,4 @@
-# COMP 371 - Section CC Practical Assignment #2
+# COMP 371 - OpenGL Project
 
 Author & Contributor List
 -----------
