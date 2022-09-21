@@ -1,0 +1,24 @@
+
+Variables:
+  # Set the time of day (DAY, NIGHT)
+- name: TIME_OF_DAY
+  value: DAY
+
+  # Set the textures (1 = ON, 0 = OFF)
+- name: useTextures
+  value: 1
+
+  # Set the shadows (true = ON, false = OFF)
+- name: useShadows
+  value: true
+
+
+  ##RECOMMENDED VALUES: NORMAL + SMOOTH
+
+  #Options: SMALL, NORMAL, BIG
+- name: terrainSize
+  value: SMALL
+
+  #set to SMOOTH or HILLS or REALSMOOTH
+- name: terrainTopography
+  value: SMOOTH

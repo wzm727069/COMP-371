@@ -1,0 +1,19 @@
+#version 440 core
+
+out vec4 FragColor;
+
+in vec3 vertexDefinedColor;
+
+uniform int fill;
+
+void main()
+{
+    if (fill == -1)
+	{
+		FragColor = vec4(1.0); 
+	}
+	else 
+	{
+		FragColor = vec4(vertexDefinedColor, 1.0f);
+	}
+}
