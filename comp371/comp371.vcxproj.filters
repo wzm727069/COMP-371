@@ -1,0 +1,280 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="comp371\assignment1\src\basic.shader" />
+    <None Include="comp371\assignment1\src\Shaders\modelShader.vertex" />
+    <None Include="comp371\assignment1\src\Shaders\modelShader.fragment" />
+    <None Include="comp371\assignment1\src\Shaders\lightShader.fragment" />
+    <None Include="comp371\assignment1\src\Shaders\lightShader.vertex" />
+    <None Include="comp371\assignment1\src\Shaders\shadow_mapping_depth.fragment" />
+    <None Include="comp371\assignment1\src\Shaders\shadow_mapping_depth.vertex" />
+    <None Include="comp371\assignment1\src\Shaders\skyboxShader.fragment" />
+    <None Include="comp371\assignment1\src\Shaders\skyboxShader.vertex" />
+    <None Include="comp371\assignment1\src\Shaders\assimp.modelShader.fragment" />
+    <None Include="comp371\assignment1\src\Shaders\assimp.modelShader.vertex" />
+    <None Include="comp371\assignment1\src\Config\conf.yml" />
+    <None Include="comp371\assignment1\src\Config\config.yaml" />
+    <None Include="comp371\assignment1\src\Config\Configuration.yml" />
+    <None Include="comp371\assignment1\src\config.yaml" />
+    <None Include="comp371\ClassDiagram1.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="comp371\assignment1\src\Objects\geometry\Cube.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="comp371\assignment1\src\Objects\geometry\polygon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="comp371\assignment1\src\Opengl_a\Vertex.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="comp371\assignment1\src\Objects\geometry\model.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="comp371\assignment1\src\Opengl_a\VertexComponent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="comp371\assignment1\src\Opengl_a\VertexController.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="comp371\assignment1\src\Objects\geometry\Binder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="comp371\assignment1\src\Objects\Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="comp371\assignment1\src\modeling\OurModels.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="comp371\assignment1\src\Opengl_a\Shader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="comp371\assignment1\src\Opengl_a\Texture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="comp371\assignment1\src\Objects\geometry\ModelContainer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="comp371\assignment1\src\Objects\geometry\Shape.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="comp371\assignment1\src\utils\objloader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="comp371\assignment1\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="comp371\assignment1\src\Objects\lighting\Light.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="comp371\assignment1\src\utils\SimplexNoise.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="comp371\assignment1\src\Opengl_a\Material.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="comp371\assignment1\src\Objects\geometry\Cube.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="comp371\assignment1\src\Objects\geometry\polygon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="comp371\assignment1\src\Opengl_a\vertex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="comp371\assignment1\src\Objects\geometry\Model.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="comp371\assignment1\src\Objects\Grid.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="comp371\assignment1\src\Opengl_a\VertexComponent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="comp371\assignment1\src\Opengl_a\VertexController.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="comp371\assignment1\src\Objects\geometry\Binder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="comp371\assignment1\src\Objects\Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="comp371\assignment1\src\utils\stb_image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="comp371\assignment1\src\utils\GL_Error.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="comp371\assignment1\src\Opengl_a\Shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="comp371\assignment1\src\Opengl_a\Texture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="comp371\assignment1\src\Common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="comp371\assignment1\src\Objects\geometry\ModelContainer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="comp371\assignment1\src\Objects\geometry\Shape.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="comp371\assignment1\src\utils\AssimpTranslation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="comp371\assignment1\src\Objects\lighting\Light.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="comp371\assignment1\src\utils\renderHelpers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="comp371\assignment1\src\utils\SimplexNoise.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="comp371\assignment1\src\Opengl_a\Material.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="comp371\assignment1\src\Objects\Terrain.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="comp371\assignment1\src\Resources\container.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="comp371\assignment1\src\Resources\brushed_metal.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="comp371\assignment1\src\Resources\black_reflect.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="comp371\assignment1\src\Resources\bmv_2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="comp371\assignment1\src\Resources\brushed_metal_vert.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="comp371\assignment1\src\Resources\cast_iron.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="comp371\assignment1\src\Resources\chrome.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="comp371\assignment1\src\Resources\plastic_metal.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="comp371\assignment1\src\Resources\shiny_metal.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="comp371\assignment1\src\Resources\speaker_holes.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="comp371\assignment1\src\Resources\box1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="comp371\assignment1\src\Resources\box2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="comp371\assignment1\src\Resources\box3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="comp371\assignment1\src\Resources\box4.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="comp371\assignment1\src\Resources\box5.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="comp371\assignment1\src\Resources\grid_floor.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="comp371\assignment1\src\Resources\sand.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="comp371\assignment1\src\Resources\water.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="comp371\assignment1\src\Resources\skybox\back.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="comp371\assignment1\src\Resources\skybox\bottom.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="comp371\assignment1\src\Resources\skybox\front.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="comp371\assignment1\src\Resources\skybox\left.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="comp371\assignment1\src\Resources\skybox\right.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="comp371\assignment1\src\Resources\skybox\top.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="comp371\assignment1\src\Resources\skybox\desert_1\back.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="comp371\assignment1\src\Resources\skybox\desert_1\bottom.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="comp371\assignment1\src\Resources\skybox\desert_1\top.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="comp371\assignment1\src\Resources\skybox\desert_1\skyboxsun25degtest.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="comp371\assignment1\src\Resources\skybox\desert_1\right.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="comp371\assignment1\src\Resources\skybox\desert_1\left.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="comp371\assignment1\src\Resources\skybox\desert_1\front.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="comp371\assignment1\src\Resources\rustedmetal.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="comp371\assignment1\src\Resources\oldwood.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="comp371\assignment1\src\Resources\water_orig.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="comp371\assignment1\src\Resources\94_rock_stone.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="comp371\assignment1\src\Resources\63_rusty_dirty_metal.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="comp371\assignment1\src\Resources\blocs2.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="comp371\assignment1\src\Resources\blocs.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="comp371\readme_assignment1.txt" />
+    <Text Include="comp371\assignment1\src\Resources\skybox\desert_1\credit.txt" />
+    <Text Include="comp371\assignment1\src\Resources\credit.txt" />
+  </ItemGroup>
+</Project>
